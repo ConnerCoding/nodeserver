@@ -11,4 +11,8 @@ app.get('/', (req, res) => {
     res.send('getting root');
 });
 
+app.get('/about', (req, res) => {
+    res.send('getting about');
+});
+
 app.listen(port);
